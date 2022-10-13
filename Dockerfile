@@ -1,4 +1,4 @@
-FROM python:3.7.15-alpine3.16
+FROM mcr.microsoft.com/playwright:focal
 WORKDIR /redbot
 COPY . /redbot
 
